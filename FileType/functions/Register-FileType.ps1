@@ -36,6 +36,7 @@
 		$Type,
 		
 		[Parameter(Mandatory = $true, ValueFromPipelineByPropertyName = $true)]
+		[AllowEmptyString()]
 		[string]
 		$Mime,
 		
