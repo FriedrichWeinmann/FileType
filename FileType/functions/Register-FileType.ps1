@@ -14,17 +14,21 @@
 	.PARAMETER Mime
 		The mime label files of that type have.
 	
-	.PARAMETER Offset
-		The offset from where to start looking for the signature, verifying that the file is indeed of this type.
-		Basically, the offset means "how many bytes, starting from the beginning of the file, to skip".
-	
 	.PARAMETER Bytes
 		The byte-pattern to use to compare files with.
 		Use $null as a wildcard entry that may be anything.
 	
+	.PARAMETER Offset
+		The offset from where to start looking for the signature, verifying that the file is indeed of this type.
+		Basically, the offset means "how many bytes, starting from the beginning of the file, to skip".
+	
+	.PARAMETER Description
+		A description for the defined filetype.
+		This could be general background or some important piece of extra documentation.
+	
 	.EXAMPLE
 		PS C:\> Register-FileType -Type 'mp3' -Mime 'audio/mpeg' -Offset 0 -Bytes 73, 68, 51
-	
+		
 		Registers the mp3 file type.
 #>
 	[CmdletBinding()]
@@ -36,6 +40,7 @@
 		$Type,
 		
 		[Parameter(Mandatory = $true, ValueFromPipelineByPropertyName = $true)]
+		[AllowEmptyString()]
 		[string]
 		$Mime,
 		
@@ -43,7 +48,7 @@
 		[AllowEmptyCollection()]
 		[AllowNull()]
 		[Nullable[Byte][]]
-		$Bytes = @(),
+		$Bytes,
 		
 		[Parameter(ValueFromPipelineByPropertyName = $true)]
 		[int]

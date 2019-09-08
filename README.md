@@ -43,3 +43,14 @@ It is designed to help with analysis, but there is no guarantee whatsoever.
 Providing correct signatures for every single file type in existence is pretty much impossible, especially for a small project such as this.
 
 So ... use with common sense and be aware of its limitations.
+
+## Contributing Signatures
+
+So, you've got your own file signatures you want to add and wonder how?
+Look no further!
+New signatures will always be welcome.
+You can find the json file containing the current definitions here:
+
+```
+FileType/internal/data/fileTypes.json
+```
