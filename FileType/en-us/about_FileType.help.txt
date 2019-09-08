@@ -1,0 +1,11 @@
+﻿TOPIC
+	about_FileType
+	
+SHORT DESCRIPTION
+	Explains how to use the FileType powershell module
+	
+LONG DESCRIPTION
+	<Insert Content here>
+
+KEYWORDS
+	FileType

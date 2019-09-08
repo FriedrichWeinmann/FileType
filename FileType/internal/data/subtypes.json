@@ -1,0 +1,32 @@
+﻿[
+	{
+		"ParentType" = "zip",
+		"ChildType" = "xlsx",
+		"ConditionExtension" = "xlsx"
+	},
+	{
+		"ParentType" = "zip",
+		"ChildType" = "docx",
+		"ConditionExtension" = "docx"
+	},
+	{
+		"ParentType" = "zip",
+		"ChildType" = "pptx",
+		"ConditionExtension" = "pptx"
+	},
+	{
+		"ParentType" = "zip",
+		"ChildType" = "odt",
+		"ConditionExtension" = "odt"
+	},
+	{
+		"ParentType" = "zip",
+		"ChildType" = "ods",
+		"ConditionExtension" = "ods"
+	},
+	{
+		"ParentType" = "zip",
+		"ChildType" = "odp",
+		"ConditionExtension" = "odp"
+	}
+]

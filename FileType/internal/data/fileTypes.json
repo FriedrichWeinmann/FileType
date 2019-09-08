@@ -1,0 +1,341 @@
+﻿[
+    {
+        "Bytes":  [ 80, 75, 3, 4, 20, 0, 6, 0, 8, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "docx",
+        "Mime":  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+		"Description":  "Open Document formats from Microsoft Office are indistinguishable from each other. There is no way to differentiate between an excel file, a word file or a powerpoint file using the file header."
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4, 20, 0, 6, 0, 8, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "xlsx",
+        "Mime":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+		"Description":  "Open Document formats from Microsoft Office are indistinguishable from each other. There is no way to differentiate between an excel file, a word file or a powerpoint file using the file header."
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4, 20, 0, 6, 0, 8, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "pptx",
+        "Mime":  "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+		"Description":  "Open Document formats from Microsoft Office are indistinguishable from each other. There is no way to differentiate between an excel file, a word file or a powerpoint file using the file header."
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4, 10, 0, 0, 0, 0, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "odt",
+        "Mime":  "application/vnd.oasis.opendocument.text"
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4, 10, 0, 0, 0, 0, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "ods",
+        "Mime":  "application/vnd.oasis.opendocument.spreadsheet"
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4, 10, 0, 0, 0, 0, 0, 0, 0, 33, 0 ],
+        "Offset":  0,
+        "Type":  "odp",
+        "Mime":  "application/vnd.oasis.opendocument.presentation"
+    },
+    {
+        "Bytes":  [ ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 236, 165, 193, 0 ],
+        "Offset":  512,
+        "Type":  "doc",
+        "Mime":  "application/msword"
+    },
+    {
+        "Bytes":  [ 9, 8, 16, 0, 0, 6, 5, 0 ],
+        "Offset":  512,
+        "Type":  "xls",
+        "Mime":  "application/excel"
+    },
+    {
+        "Bytes":  [ 253, 255, 255, 255, null, 0, 0, 0 ],
+        "Offset":  512,
+        "Type":  "ppt",
+        "Mime":  "application/mspowerpoint"
+    },
+    {
+        "Bytes":  [ 123, 92, 114, 116, 102, 49 ],
+        "Offset":  0,
+        "Type":  "rtf",
+        "Mime":  "application/rtf"
+    },
+    {
+        "Bytes":  [ 37, 80, 68, 70 ],
+        "Offset":  0,
+        "Type":  "pdf",
+        "Mime":  "application/pdf"
+    },
+    {
+        "Bytes":  [ 208, 207, 17, 224, 161, 177, 26, 225 ],
+        "Offset":  0,
+        "Type":  "",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ ],
+        "Offset":  0,
+        "Type":  "",
+        "Mime":  ""
+    },
+    {
+        "Bytes":  [ 60, 63, 120, 109, 108, 32, 118, 101, 114, 115, 105, 111, 110, 61 ],
+        "Offset":  0,
+        "Type":  "xml,xul",
+        "Mime":  "text/xml"
+    },
+    {
+        "Bytes":  [ 60, 79, 98, 106, 115, 32, 86, 101, 114, 115, 105, 111, 110, 61, 34, 49, 46, 49, 46, 48, 46, 49, 34, 32, 120, 109, 108, 110, 115, 61, 34, 104, 116, 116, 112, 58, 47, 47, 115, 99, 104, 101, 109, 97, 115, 46, 109, 105, 99, 114, 111, 115, 111, 102, 116, 46, 99, 111, 109, 47, 112, 111, 119, 101, 114, 115, 104, 101, 108, 108, 47, 50, 48, 48, 52, 47, 48, 52, 34, 62 ],
+        "Offset":  0,
+        "Type":  "xml,clixml",
+        "Mime":  "application/clixml+xml",
+		"Description":  "Encoding: UTF8 no BOM. Special XML format used by PowerShell. Signature can vary wildly depending on encoding, all of which being legal."
+    },
+    {
+        "Bytes":  [ 255, 254, 60, 0, 79, 0, 98, 0, 106, 0, 115, 0, 32, 0, 86, 0, 101, 0, 114, 0, 115, 0, 105, 0, 111, 0, 110, 0, 61, 0, 34, 0, 49, 0, 46, 0, 49, 0, 46, 0, 48, 0, 46, 0, 49, 0, 34, 0, 32, 0, 120, 0, 109, 0, 108, 0, 110, 0, 115, 0, 61, 0, 34, 0, 104, 0, 116, 0, 116, 0, 112, 0, 58, 0, 47, 0, 47, 0, 115, 0, 99, 0, 104, 0, 101, 0, 109, 0, 97, 0, 115, 0, 46, 0, 109, 0, 105, 0, 99, 0, 114, 0, 111, 0, 115, 0, 111, 0, 102, 0, 116, 0, 46, 0, 99, 0, 111, 0, 109, 0, 47, 0, 112, 0, 111, 0, 119, 0, 101, 0, 114, 0, 115, 0, 104, 0, 101, 0, 108, 0, 108, 0, 47, 0, 50, 0, 48, 0, 48, 0, 52, 0, 47, 0, 48, 0, 52, 0, 34, 0, 62, 0 ],
+        "Offset":  0,
+        "Type":  "xml,clixml",
+        "Mime":  "application/clixml+xml",
+		"Description":  "Encoding: UCS-2 LE with BOM. Special XML format used by PowerShell. Signature can vary wildly depending on encoding, all of which being legal."
+    },
+    {
+        "Bytes":  [ 239, 187, 191 ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain",
+		"Description":  "UTF 8 with BOM encoded text file."
+    },
+    {
+        "Bytes":  [ 254, 255 ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 255, 254 ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 0, 0, 254, 255 ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 255, 254, 0, 0 ],
+        "Offset":  0,
+        "Type":  "txt",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 255, 216, 255 ],
+        "Offset":  0,
+        "Type":  "jpg",
+        "Mime":  "image/jpeg"
+    },
+    {
+        "Bytes":  [ 137, 80, 78, 71, 13, 10, 26, 10 ],
+        "Offset":  0,
+        "Type":  "png",
+        "Mime":  "image/png"
+    },
+    {
+        "Bytes":  [ 71, 73, 70, 56, null, 97 ],
+        "Offset":  0,
+        "Type":  "gif",
+        "Mime":  "image/gif"
+    },
+    {
+        "Bytes":  [ 66, 77 ],
+        "Offset":  0,
+        "Type":  "bmp",
+        "Mime":  "image/gif"
+    },
+    {
+        "Bytes":  [ 0, 0, 1, 0 ],
+        "Offset":  0,
+        "Type":  "ico",
+        "Mime":  "image/x-icon"
+    },
+    {
+        "Bytes":  [ 31, 139, 8 ],
+        "Offset":  0,
+        "Type":  "gz,tgz",
+        "Mime":  "application/x-gz"
+    },
+    {
+        "Bytes":  [ 66, 77 ],
+        "Offset":  0,
+        "Type":  "7z",
+        "Mime":  "application/x-compressed"
+    },
+    {
+        "Bytes":  [ 55, 122, 188, 175, 39, 28 ],
+        "Offset":  0,
+        "Type":  "7z",
+        "Mime":  "application/x-compressed"
+    },
+    {
+        "Bytes":  [ 80, 75, 3, 4 ],
+        "Offset":  0,
+        "Type":  "zip",
+        "Mime":  "application/x-compressed"
+    },
+    {
+        "Bytes":  [ 82, 97, 114, 33 ],
+        "Offset":  0,
+        "Type":  "rar",
+        "Mime":  "application/x-compressed"
+    },
+    {
+        "Bytes":  [ 77, 90 ],
+        "Offset":  0,
+        "Type":  "dll,exe",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 31, 157 ],
+        "Offset":  0,
+        "Type":  "tar.z",
+        "Mime":  "application/x-tar"
+    },
+    {
+        "Bytes":  [ 31, 160 ],
+        "Offset":  0,
+        "Type":  "tar.z",
+        "Mime":  "application/x-tar"
+    },
+    {
+        "Bytes":  [ 66, 90, 104 ],
+        "Offset":  0,
+        "Type":  "bz2,tar,bz2,tbz2,tb2",
+        "Mime":  "application/x-bzip2"
+    },
+    {
+        "Bytes":  [ 103, 103, 83, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        "Offset":  0,
+        "Type":  "oga,ogg,ogv,ogx",
+        "Mime":  "application/ogg"
+    },
+    {
+        "Bytes":  [ 77, 84, 104, 100 ],
+        "Offset":  0,
+        "Type":  "midi,mid",
+        "Mime":  "audio/midi"
+    },
+    {
+        "Bytes":  [ 70, 76, 86, 1 ],
+        "Offset":  0,
+        "Type":  "flv",
+        "Mime":  "application/unknown"
+    },
+    {
+        "Bytes":  [ 82, 73, 70, 70, null, null, null, null, 87, 65, 86, 69, 102, 109, 116, 32 ],
+        "Offset":  0,
+        "Type":  "wav",
+        "Mime":  "audio/wav"
+    },
+    {
+        "Bytes":  [ 33, 66, 68, 78 ],
+        "Offset":  0,
+        "Type":  "pst",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 65, 67, 49, 48 ],
+        "Offset":  0,
+        "Type":  "dwg",
+        "Mime":  "application/acad"
+    },
+    {
+        "Bytes":  [ 56, 66, 80, 83 ],
+        "Offset":  0,
+        "Type":  "psd",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 33, 60, 97, 114, 99, 104, 62, 10 ],
+        "Offset":  0,
+        "Type":  "lib",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 65, 69, 83 ],
+        "Offset":  0,
+        "Type":  "aes",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 149, 0 ],
+        "Offset":  0,
+        "Type":  "skr",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 149, 1 ],
+        "Offset":  0,
+        "Type":  "skr",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 153, 1 ],
+        "Offset":  0,
+        "Type":  "pkr",
+        "Mime":  "application/octet-stream"
+    },
+    {
+        "Bytes":  [ 70, 114, 111, 109 ],
+        "Offset":  0,
+        "Type":  "eml",
+        "Mime":  "message/rfc822"
+    },
+    {
+        "Bytes":  [ 69, 108, 102, 70, 105, 108, 101, 0 ],
+        "Offset":  0,
+        "Type":  "elf",
+        "Mime":  "text/plain"
+    },
+    {
+        "Bytes":  [ 73, 68, 51 ],
+        "Offset":  0,
+        "Type":  "mp3",
+        "Mime":  "audio/mpeg"
+    },
+    {
+        "Bytes":  [ 102, 116, 121, 112, 77, 83, 78, 86 ],
+        "Offset":  0,
+        "Type":  "mp4",
+        "Mime":  "video/mp4"
+    },
+    {
+        "Bytes":  [ 239, 187, 191 ],
+        "Offset":  0,
+        "Type":  "ps1",
+        "Mime":  "text/powershell+script",
+		"Description":  "PowerShell script file. Plain text in UTF8 with BOM."
+    },
+    {
+        "Bytes":  [ 239, 187, 191 ],
+        "Offset":  0,
+        "Type":  "psd1",
+        "Mime":  "text/powershell+datafile",
+		"Description":  "PowerShell data file, used for module manifest or secure data storage. Plain text in UTF8 with BOM."
+    },
+    {
+        "Bytes":  [ 239, 187, 191 ],
+        "Offset":  0,
+        "Type":  "psm1",
+        "Mime":  "text/powershell+moduleFile",
+		"Description":  "PowerShell module-script file, generally used in modules as root file. Plain text in UTF8 with BOM."
+    }
+]

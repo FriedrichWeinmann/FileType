@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileType</name>
+    </assembly>
+    <members>
+        <member name="T:FileType.FileType">
+            <summary>
+            A mapping object, that maps a header to the correct mimetype as well as the usual file extension for that type.
+            </summary>
+        </member>
+        <member name="P:FileType.FileType.Header">
+            <summary>
+            The header bytes an object of this type would have
+            </summary>
+        </member>
+        <member name="P:FileType.FileType.HeaderOffset">
+            <summary>
+            The size of the header
+            </summary>
+        </member>
+        <member name="P:FileType.FileType.Extension">
+            <summary>
+            The extension associated with this type
+            </summary>
+        </member>
+        <member name="P:FileType.FileType.Mime">
+            <summary>
+            The actual mime name
+            </summary>
+        </member>
+        <member name="P:FileType.FileType.Description">
+            <summary>
+            A description or comment of the filetype
+            </summary>
+        </member>
+        <member name="M:FileType.FileType.#ctor">
+            <summary>
+            Initializes an empty instance of the <see cref="T:FileType.FileType"/> class.
+            </summary>
+        </member>
+        <member name="M:FileType.FileType.#ctor(System.Nullable{System.Byte}[],System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FileType.FileType"/> struct.
+            Takes the details of offset for the header
+            </summary>
+            <param name="Header">Byte array with header.</param>
+            <param name="Offset">The header offset - how far into the file we need to read the header</param>
+            <param name="Extension">String with extension.</param>
+            <param name="Mime">The description of MIME.</param>
+            <param name="Description">Describes the filetype or comments on its peculiarities.</param>
+        </member>
+        <member name="M:FileType.FileType.IsType(System.Byte[])">
+            <summary>
+            Determines whether the specified header data matches a file of this type.
+            </summary>
+            <param name="HeaderData">The bytes to compare</param>
+            <returns>Whether this type matches the data or not</returns>
+        </member>
+        <member name="M:FileType.FileType.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FileType.FileType.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileType.FileType.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FileType.FTHost">
+            <summary>
+            Provides basic 
+            </summary>
+        </member>
+        <member name="F:FileType.FTHost.FileTypes">
+            <summary>
+            List of filetypes that have been registered
+            </summary>
+        </member>
+        <member name="F:FileType.FTHost.MaxHeader">
+            <summary>
+            The maximum size possibly needed to compare a files content with the registered filetypes
+            </summary>
+        </member>
+        <member name="M:FileType.FTHost.IsType(System.Byte[],System.String,System.Boolean)">
+            <summary>
+            Checks, whether the data is of the specified file type.
+            </summary>
+            <param name="Content">The leading bytes of the file data, used to identify the file type</param>
+            <param name="TypeName">The presumed typename</param>
+            <param name="IgnoreUnknownTypes">Whether unknown types should return true or false</param>
+            <returns>Whether the file data is of the expected type</returns>
+        </member>
+        <member name="M:FileType.FTHost.IsType(System.String,System.String,System.Boolean)">
+            <summary>
+            Checks, whether the specified file is of the specified file type
+            </summary>
+            <param name="FullName">The full path to the file</param>
+            <param name="TypeName">The presumed typename</param>
+            <param name="IgnoreUnknownTypes">Whether unknown types should return true or false</param>
+            <returns>Whether the file is of the expected type</returns>
+        </member>
+        <member name="M:FileType.FTHost.IsType(System.IO.FileInfo,System.String,System.Boolean)">
+            <summary>
+            Checks, whether the specified file is of the specified file type
+            </summary>
+            <param name="File">The file object to check</param>
+            <param name="TypeName">The presumed typename</param>
+            <param name="IgnoreUnknownTypes">Whether unknown types should return true or false</param>
+            <returns>Whether the file is of the expected type</returns>
+        </member>
+        <member name="M:FileType.FTHost.IsValidType(System.IO.FileInfo,System.Boolean)">
+            <summary>
+            Checks, whether the specified file's extension matches its content.
+            </summary>
+            <param name="File">THe file to verify</param>
+            <param name="IgnoreUnknownTypes">Whether unknown types should return true or false</param>
+            <returns>whether the specified file's extension matches its content.</returns>
+        </member>
+        <member name="M:FileType.FTHost.ResolveType(System.IO.FileInfo)">
+            <summary>
+            Takes a file information object and returns the types it could be of.
+            </summary>
+            <param name="File">The file to resolve the type of</param>
+            <returns>The types the input file could be part of</returns>
+        </member>
+        <member name="T:FileType.Resolution">
+            <summary>
+            File Type resolution report.
+            </summary>
+        </member>
+        <member name="F:FileType.Resolution.FullName">
+            <summary>
+            Path to the file resolved.
+            </summary>
+        </member>
+        <member name="F:FileType.Resolution.FileTypes">
+            <summary>
+            The types this file has
+            </summary>
+        </member>
+        <member name="T:FileType.TestResult">
+            <summary>
+            Result of a file type validation
+            </summary>
+        </member>
+        <member name="F:FileType.TestResult.IsValid">
+            <summary>
+            Does the file content match its extension?
+            </summary>
+        </member>
+        <member name="F:FileType.TestResult.Success">
+            <summary>
+            Was testing possible?
+            </summary>
+        </member>
+        <member name="F:FileType.TestResult.FullName">
+            <summary>
+            Full name / path to the file tested.
+            </summary>
+        </member>
+        <member name="F:FileType.TestResult.BasePath">
+            <summary>
+            The base path the search was based off from
+            </summary>
+        </member>
+        <member name="P:FileType.TestResult.RelativePath">
+            <summary>
+            Path relative to the searchbase stored in BasePath
+            </summary>
+        </member>
+        <member name="M:FileType.TestResult.#ctor">
+            <summary>
+            Create an empty FileType testresult.
+            </summary>
+        </member>
+        <member name="M:FileType.TestResult.#ctor(System.Boolean,System.Nullable{System.Boolean},System.String)">
+            <summary>
+            Create a filled out FIleType testresult
+            </summary>
+            <param name="IsValid">Does the file content match its extension?</param>
+            <param name="Success">Was testing possible?</param>
+            <param name="FullName">Full name / path to the file tested.</param>
+        </member>
+    </members>
+</doc>
