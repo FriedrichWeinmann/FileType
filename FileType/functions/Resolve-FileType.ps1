@@ -14,7 +14,7 @@
 	.EXAMPLE
 		PS C:\> Get-ChildItem C:\Shares\Data -Recurse | Resolve-FileType
 	
-		Detects the filetype of all files in 
+		Detects the filetype of all files in C:\Shares\Data
 #>
 	[CmdletBinding()]
 	param (
