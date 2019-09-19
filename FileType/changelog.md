@@ -1,5 +1,9 @@
 ﻿# Changelog
+
+## 1.0.1 (2019-09-19)
+
+- Fix: Resolve-FileType failing on type with no registered type definition (#3)
+
 ## 1.0.0 (2019-09-05)
- - New: Some Stuff
- - Upd: Moar Stuff
- - Fix: Much Stuff
+
+- Initial Release

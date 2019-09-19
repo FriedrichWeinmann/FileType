@@ -36,7 +36,7 @@
 				
 				New-Object FileType.Resolution -Property @{
 					FullName  = $resolvedPath
-					FileTypes = ([FileType.FTHost]::ResolveType($item) | Where-Object { $_.Header.Count -gt 0 })
+					FileTypes = @([FileType.FTHost]::ResolveType($item) | Where-Object { $_.Header.Count -gt 0 })
 				}
 			}
 		}
