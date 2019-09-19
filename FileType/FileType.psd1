@@ -3,7 +3,7 @@
 	RootModule = 'FileType.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0.1'
+	ModuleVersion = '1.0.2'
 	
 	# ID used to uniquely identify this module
 	GUID = 'ba5f8c29-6cf4-49d1-84d0-6370c1e989a9'
